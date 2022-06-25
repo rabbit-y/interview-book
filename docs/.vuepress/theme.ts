@@ -20,5 +20,12 @@ export default hopeTheme({
     mdEnhance: {
       codetabs: true,
     },
+    comment: {
+      provider: "Giscus",
+      repo: "rabbit-y/interview-book",
+      repoId: "R_kgDOHjv1dg",
+      category: "General",
+      categoryId: "DIC_kwDOHjv1ds4CP3yF"
+    }
   }
 });
