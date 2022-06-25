@@ -8,6 +8,7 @@ export default defineUserConfig({
   title: "花贝的面试题",
   description: "面试题合集",
   dest: './dist',
+  base: "/interview-book/dist/",
   theme,
   alias: {
     "@theme-hope/components/HomePage": path.resolve(
