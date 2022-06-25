@@ -7,6 +7,7 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "花贝的面试题",
   description: "面试题合集",
+  dest: './dist',
   theme,
   alias: {
     "@theme-hope/components/HomePage": path.resolve(
@@ -17,4 +18,5 @@ export default defineUserConfig({
   plugins: [
     searchPlugin(),
   ],
+
 });
