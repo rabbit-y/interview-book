@@ -4,6 +4,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 export default hopeTheme({
   iconAssets: 'iconfont',
   pageInfo: ["Author", "Date", "Word", "ReadingTime"],
+  logo:"header.jpg",
   navbar: [
     { text: "题集", icon: "workingDirectory", link: "/guide/HTML.md" },
     {

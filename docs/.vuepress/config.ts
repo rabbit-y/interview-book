@@ -10,6 +10,11 @@ export default defineUserConfig({
   dest: './dist',
   base: "/interview-book/dist/",
   theme,
+  head:[
+    [
+      "link",{href:"favicon.ico", rel:"icon"}
+    ]
+  ],
   alias: {
     "@theme-hope/components/HomePage": path.resolve(
       __dirname,
