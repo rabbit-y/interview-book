@@ -12,7 +12,7 @@ order: 1
 ### 2.script 标签中 defer 和 async 的区别
 
 script：会阻碍 html 解析，下载脚本并执行完成后才会继续解析 html  
-async script：解析 html 过程中异步下载脚本，下载完成后立即执行，有可能会阻断 html 解析
+async script：解析 html 过程中异步下载脚本，下载完成后立即执行，有可能会阻断 html 解析   
 defer script：解析 html 过程中异步下载脚本，html 解析完成后再执行脚本，完全不会阻断 html 解析
 
 ### 3.http 和 https
@@ -30,3 +30,13 @@ http 请求
 服务器处理请求并返回 http 报文  
 浏览器渲染页面  
 断开 TCP 链接
+
+### 5.浏览器缓存都有哪些？有什么区别
+
+### 6.es module和commonjs的区别
+
+### 7.xml和json的区别
+
+### 8.常见的web安以及防护原理有哪些
+
+### 9.

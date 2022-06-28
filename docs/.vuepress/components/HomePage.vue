@@ -44,7 +44,8 @@
       <div class="back">
         <h2>JavaScript</h2>
         <p>
-          JavaScript 是一种具有函数优先的轻量级，JavaScript 基于原型编程、多范式的动态脚本语言，并且支持面向对象、命令式、声明式、函数式编程范式
+          JavaScript 是一种具有函数优先的轻量级，JavaScript
+          基于原型编程、多范式的动态脚本语言，并且支持面向对象、命令式、声明式、函数式编程范式
         </p>
       </div>
     </div>
@@ -52,7 +53,7 @@
       <div
         class="front"
         style="
-          background-image: url(https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)
+          background-image: url(https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
         "
       >
         <h1 class="text-shadow">React</h1>
@@ -60,7 +61,9 @@
       <div class="back">
         <h2>React</h2>
         <p>
-          React是用于构建用户界面的JavaScript库， [1]  起源于Facebook的内部项目，该公司对市场上所有 JavaScript MVC框架都不满意，决定自行开发一套，用于架设Instagram的网站。于2013年5月开源。
+          React是用于构建用户界面的JavaScript库， [1]
+          起源于Facebook的内部项目，该公司对市场上所有 JavaScript
+          MVC框架都不满意，决定自行开发一套，用于架设Instagram的网站。于2013年5月开源。
         </p>
       </div>
     </div>
@@ -68,7 +71,7 @@
       <div
         class="front"
         style="
-          background-image: url(https://images.unsplash.com/photo-1620927894581-488ff4737a52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80)
+          background-image: url(https://images.unsplash.com/photo-1620927894581-488ff4737a52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80);
         "
       >
         <h1 class="text-shadow">Vue</h1>
@@ -76,7 +79,25 @@
       <div class="back">
         <h2>Vue</h2>
         <p>
-          Vue是一套用于构建用户界面的渐进式JavaScript框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。
+          Vue是一套用于构建用户界面的渐进式JavaScript框架。与其它大型框架不同的是，Vue
+          被设计为可以自底向上逐层应用。Vue
+          的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。
+        </p>
+      </div>
+    </div>
+    <div class="flip flip-vertical">
+      <div
+        class="front"
+        style="
+          background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80);
+        "
+      >
+        <h1 class="text-shadow">算法</h1>
+      </div>
+      <div class="back">
+        <h2>算法</h2>
+        <p>
+          算法是指解题方案的准确而完整的描述，是一系列解决问题的清晰指令，算法代表着用系统的方法描述解决问题的策略机制。也就是说，能够对一定规范的输入，在有限时间内获得所要求的输出
         </p>
       </div>
     </div>
@@ -84,11 +105,11 @@
 </template>
 <style scoped>
 * {
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
-.home{
+.home {
   padding-top: 120px;
-  text-align:center;
+  text-align: center;
   width: 1300px;
   margin: 0 auto;
 }
@@ -97,7 +118,7 @@
   display: inline-block;
   margin-right: 10px;
   margin-left: 10px;
-  margin-bottom: 3em;
+  margin-bottom: 30px;
   width: 400px;
   text-align: left;
 }
@@ -137,7 +158,6 @@
   transform: rotateX(0deg);
 }
 
-
 .flip > .front,
 .flip > .back {
   display: block;
@@ -152,7 +172,7 @@
 }
 .flip > .front p,
 .flip > .back p {
-  font-size: 0.9125rem;
+  font-size: 14px;
   line-height: 160%;
   color: #999;
 }

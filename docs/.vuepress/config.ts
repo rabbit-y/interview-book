@@ -7,22 +7,15 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "花贝的面试题",
   description: "面试题合集",
-  dest: './dist',
+  dest: "./dist",
   base: "/interview-book/dist/",
   theme,
-  head:[
-    [
-      "link",{href:"favicon.ico", rel:"icon"}
-    ]
-  ],
+  head: [["link", { href: "./public/favicon.ico", rel: "icon" }]],
   alias: {
     "@theme-hope/components/HomePage": path.resolve(
       __dirname,
       "./components/HomePage.vue"
     ),
   },
-  plugins: [
-    searchPlugin(),
-  ],
-
+  plugins: [searchPlugin()],
 });
