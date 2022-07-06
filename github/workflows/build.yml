@@ -1,4 +1,4 @@
-name: dsh-book build work # 工作流name
+name: interview-book build work # 工作流name
 on: # 触发 workflow 的条件
   push:
     branches:
@@ -15,7 +15,7 @@ jobs: # workflow 文件的主体，表示要执行的一项或多项任务
           yarn
           npm run build
 
-      - name: deploy
+      - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: ${{ secrets.SECRET_INTERVIEW }} # 指定密钥
