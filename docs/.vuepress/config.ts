@@ -7,8 +7,9 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "花贝的面试题",
   description: "面试题合集",
-  dest: "./dist",
-  base: "/interview-book/dist/",
+  // dest: "./dist",
+  dest: "./",
+  base: "/interview-book/",
   theme,
   head: [["link", { href: "./public/favicon.ico", rel: "icon" }]],
   alias: {
