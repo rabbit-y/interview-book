@@ -2,7 +2,7 @@ name: dsh-book build work # 工作流name
 on: # 触发 workflow 的条件
   push:
     branches:
-      - main
+      - master
 jobs: # workflow 文件的主体，表示要执行的一项或多项任务
   build-and-deploy: # 任务id
     name: build-and-deploy # 任务name
@@ -14,8 +14,6 @@ jobs: # workflow 文件的主体，表示要执行的一项或多项任务
         run: | # 该步骤运行的命令或者 action
           yarn
           npm run build
-          ls>./demo.txt
-          # cat ./demo.txt
 
       - name: deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
